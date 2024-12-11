@@ -17,13 +17,14 @@ func main() {
 }
 
 
-// Variadic Functions
+// VARIADIC FUNCTIONS
 
-// Variadic function example
+// Variadic functions allow you to pass a variable number of arguments
 package main
 
 import "fmt"
 
+//Using "..." before the parameter data type will allow you to define variadic functions
 func sum(numbers ...int) int {
     total := 0
     for _, number := range numbers {
