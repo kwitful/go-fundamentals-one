@@ -16,7 +16,7 @@ type Factory struct {
 
 func main() {
 	// Initializing a struct
-	bmw := Car{brand: "Mercedes", model: 1994}
+	bmw := Car{brand: "BMW", model: 1994}
 
 	// Printing struct fields
 	fmt.Println("Car Brand:", bmw.brand)
