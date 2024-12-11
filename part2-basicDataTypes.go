@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func dataShow() {
+func main() {
 
 	// Booleans
 	var isForSale bool = true
