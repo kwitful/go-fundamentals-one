@@ -11,7 +11,7 @@ type Car struct {
 
 type Factory struct {
 	name    string
-	product Car // Structs can containt other structs as fields
+	product Car // Structs can contain other structs as fields
 }
 
 func main() {
